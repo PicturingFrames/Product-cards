@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  font-family: sans-serif;
+}
+#watch {
+  top: 50%;
+  left: 25%;
+}
+#iphone {
+  top: 50%;
+  left: 50%;
+}
+#iphone .description {
+  bottom: -104px;
+}
+#iphone:hover .description {
+  bottom: 0;
+}
+#shoes {
+  top: 50%;
+  left: 75%;
+}
+#shoes .description {
+  bottom: -104px;
+}
+#shoes:hover .description {
+  bottom: 0;
+}
+.product {
+  position: absolute;
+  transform: translate(-50%, -150%);
+  width: 350px;
+  height: 233px;
+  background: #fff;
+  box-shadow: 0 20px 40px rgba(0,0,0,.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.product:hover .description {
+  bottom: 0;
+  transition: 0.5s;
+}
+.product .imgbox {
+  box-sizing: border-box;
+  height: 100%;
+}
+.description {
+  position: absolute;
+  width: 100%;
+  bottom: -152px;
+  background: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.description h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  width: 100%;
+}
+.description h2 span {
+  color: #FFC300;
+  font-weight: normal;
+}
+.description .price {
+  position: absolute;
+  top: 12px;
+  right: 25px;
+  font-size: 30px;
+}
+ul li:first-child {
+  margin-left: 0;
+  margin-bottom: 5px;
+}
+ul.colors li {
+  width: 15px;
+  height: 15px;
+}
+ul.colors li:nth-child(1) {
+  background: #00f;
+}
+ul.colors li:nth-child(2) {
+  background: #0ff;
+}
+ul.colors li:nth-child(3) {
+  background: #f0f;
+}
+
+/* Global declorations */
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+  margin: 5px 5px 0;
+}
+a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  padding: 10px;
+  background: #FFC300;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+a:hover {
+  background: #FF5733;
+}
+label {
+  font-size: 18px;
+}
